@@ -1,0 +1,29 @@
+.button {
+	background-color: var(--btn-bg-color);
+	color: var(--btn-text-color);
+	cursor: pointer;
+	transition: border-color 0.25s;
+	
+}
+.button:hover {
+	border-color: #2f2f2f;
+}
+
+.button:focus,
+.button:focus-visible  {
+	outline: 4px auto #2f2f2f;
+}
+
+.active {
+	color:#2f2f2f;
+	background-color: #ce7e1d;
+}
+
+.primary {
+	background-color: #2367e4;
+}
+
+.button:disabled {
+	opacity: .5;
+	pointer-events: none;
+}
