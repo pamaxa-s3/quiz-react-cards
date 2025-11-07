@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { MainLayout } from './components/MainLayout/';
+import { MainLayout } from './components/MainLayout';
+import { HomePage } from './pages/HomePage';
 import './App.css';
 
 export default function App() {
@@ -7,8 +8,7 @@ export default function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route element={<MainLayout />}>
-					<Route path='/' element={<div>Home</div>} />
-					<Route path='/about' element={<div>about</div>} />
+					<Route path='/' element={<HomePage />} />
 					<Route path='/addquestion' element={<h1>Add question</h1>} />
 					<Route path='/forbiden' element={<h1>Forbiden</h1>} />
 					<Route path='/*' element={<h1>404</h1>} />
