@@ -17,6 +17,11 @@
 		cursor: pointer;
 		user-select: none;
 	}
+	
+	img {
+	  width: 40px;
+	  height: 40px;
+	}
 }
 
 .headerControlers {

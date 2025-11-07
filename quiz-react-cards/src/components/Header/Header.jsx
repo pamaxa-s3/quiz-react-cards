@@ -1,4 +1,4 @@
-import logo from '../../../public/vite.svg';
+import logo from '../../assets/reactLogo.svg';
 import { Button } from '../../UI/Button';
 import { useNavigate } from 'react-router-dom';
 import cls from './Header.module.css';

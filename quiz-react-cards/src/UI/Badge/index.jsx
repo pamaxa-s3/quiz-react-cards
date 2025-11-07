@@ -1,1 +1,1 @@
-export {Babge} from "./Badge.jsx"
+export {Badge} from "./Badge.jsx"
